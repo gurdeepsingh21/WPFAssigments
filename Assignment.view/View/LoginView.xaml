@@ -238,11 +238,10 @@
                         
                         <Button Command="{Binding RegisterCommand}" Content="Register"
                                Foreground="DodgerBlue"
-                               FontSize="12"
+                               FontSize="11"
                                FontWeight="Medium"
                                FontFamily="Monteserrat"
-                               Cursor="Hand"
-                                   Margin="8,0,0,0" />
+                               Cursor="Hand"/>
                     </StackPanel>
 
 

@@ -41,7 +41,11 @@ namespace Assignment.view.View
         {
 
         }
-
-        
+        private void btnRegister_Click(object sender, RoutedEventArgs e)
+        {
+            Assignment.view.View.RegistrationView objRegisterWindow = new Assignment.view.View.RegistrationView();
+            this.Visibility = Visibility.Hidden;
+            objRegisterWindow.Show();
+        }
     }
 }
